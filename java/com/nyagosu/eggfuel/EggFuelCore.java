@@ -17,6 +17,9 @@ import net.minecraft.item.ItemStack;
 )
 
 public class EggFuelCore {
+	
+	public int burningTime = 2000;
+	
 	@EventHandler
     public void postInit(FMLPostInitializationEvent event) {
 		
@@ -24,7 +27,7 @@ public class EggFuelCore {
 			@Override
 			public int getBurnTime(ItemStack fuel){
 				if(fuel.getItem().equals(Items.egg)){
-					return 60;
+					return burningTime;
 				}
 				return 0;
 			}
