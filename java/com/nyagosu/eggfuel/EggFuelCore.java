@@ -18,7 +18,7 @@ import net.minecraft.item.ItemStack;
 
 public class EggFuelCore {
 	
-	public int burningTime = 2000;
+	public int burningTime = 3000;
 	
 	@EventHandler
     public void postInit(FMLPostInitializationEvent event) {
