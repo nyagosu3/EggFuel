@@ -11,7 +11,7 @@ import net.minecraft.item.ItemStack;
 @Mod(
 	modid = "eggfuel",
 	name = "EggFuel",
-	version = "1.0.0",
+	version = "1.0.3",
 	dependencies = "required-after:Forge@[10.13.4.1614,)",
 	useMetadata = true
 )
